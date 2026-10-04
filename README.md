@@ -1,6 +1,6 @@
 # Loan Default and Financial Risk Analysis
 
-![Loan Default & Financial Risk Dashboard](screenshots/overview.png)
+![Loan Default & Financial Risk Dashboard](screenshots/screenshot1.png)
 
 **End-to-end loan default and financial risk analysis using SQL Server, Power BI Service, Standard Gateway, Dataflow Gen1, Power Query, and DAX.**
 
@@ -227,15 +227,15 @@ Incremental refresh was configured for the Dataflow to support more efficient pr
 
 ### Loan Default & Overview
 
-![Loan Default & Overview](screenshots/overview.png)
+![Loan Default & Overview](screenshots/screenshot1.png)
 
 ### Applicant Demographics & Financial Profile
 
-![Applicant Demographics & Financial Profile](screenshots/applicant-demographics.png)
+![Applicant Demographics & Financial Profile](screenshots/screenshot2.png)
 
 ### Financial Risk Metrics
 
-![Financial Risk Metrics](screenshots/financial-risk-metrics.png)
+![Financial Risk Metrics](screenshots/screenshot3.png)
 
 ## Repository Structure
 
@@ -243,16 +243,19 @@ Incremental refresh was configured for the Dataflow to support more efficient pr
 Loan-Default-and-Financial-Risk-Analysis/
 │
 ├── data/
-│   ├── Loan_default.csv
-│   └── Column Definitions.xlsx
+│   ├── Column+Definitions.xlsx
+│   └── Loan_default.csv
 │
 ├── powerbi/
-│   └── Loan_Default_Financial_Risk_Analysis.pbix
+│   └── dashboard.pbix
 │
 ├── screenshots/
-│   ├── overview.png
-│   ├── applicant-demographics.png
-│   └── financial-risk-metrics.png
+│   ├── Loan_default columns.png
+│   ├── measures ss.png
+│   ├── powerbi service dataflow ss.png
+│   ├── screenshot1.png
+│   ├── screenshot2.png
+│   └── screenshot3.png
 │
 └── README.md
 ```
