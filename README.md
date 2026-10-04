@@ -232,7 +232,7 @@ The completed report was published to a dedicated **Power BI Service workspace**
 
 Report refresh was also configured in Power BI Service to keep the published report updated.
 
-![Power BI Service Dataflow](screenshots/powerbi%20service%20dataflow%20ss.png)
+https://app.powerbi.com/links/iFrKrXZT5f?ctid=d0732ed6-a89f-488d-b29d-e5e9e7cdde5c&pbi_source=linkShare
 
 ## Repository Structure
 
